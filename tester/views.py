@@ -30,7 +30,7 @@ def index(response, id):
 
         return render(response, "tester/list.html", {"ls":ls})
 
-    return render(response, "testr/home.html", {})
+    return render(response, "tester/home.html", {})
 
 
 def home(response):
